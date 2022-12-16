@@ -1,7 +1,7 @@
 import aboutpic from "./components/Access/mePhoto.jpg"
 
 const header = {
-  homepage: 'http://rahul2437.github.io/',
+  homepage: 'http://rahul2437.github.io/myPortfolio',
   title: 'Rahul.',
 }
 
