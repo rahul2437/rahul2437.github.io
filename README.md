@@ -1,4 +1,4 @@
-https://rahul2437.github.io
+https://rahul2437.github.io/myPortfolio
 
 I am a Full-Stack Web Developer adept in MERN Stack
 
