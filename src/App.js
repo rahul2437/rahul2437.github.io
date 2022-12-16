@@ -7,6 +7,7 @@ import About from './components/About/About';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import Contact from './components/Contact/Contact';
 import Skills from './components/Skills/Skills';
+import Projects from './components/Projects/Projects';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Header />
       <About />
       <Skills />
+      <Projects />
       <Contact />
       <ScrollToTop />
       <Footer />
