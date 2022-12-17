@@ -8,6 +8,11 @@ const ProjectContainer = ({ project }) => (
     <h3>{project.name}</h3>
 
     <p className="project__description">{project.description}</p>
+
+    {project.image && (
+      <img className="project__image" src={project.image} alt="Preview" />
+    )}
+
     {project.stack && (
       <ul className="project__stack">
         {project.stack.map((item) => (

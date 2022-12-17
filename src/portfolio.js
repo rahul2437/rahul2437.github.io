@@ -1,4 +1,7 @@
 import aboutpic from "./components/Access/mePhoto.jpg"
+import kayak from "./components/Access/Kayak.png"
+import indiatoday from "./components/Access/Indiatoday.png"
+import anthropologie from "./components/Access/Anthropologie.png"
 
 const header = {
   homepage: 'http://rahul2437.github.io',
@@ -27,20 +30,23 @@ const projects = [
     stack: ['localstorage', 'HTML', 'CSS', 'JavaScript', 'Express', 'MongoDB'],
     sourceCode: 'https://github.com/rahul2437/Kayaak-Clone',
     livePreview: 'https://kayak-clone.netlify.app/',
+    image: kayak
   },
   {
     name: 'Anthropologie.com',
     description: 'This is a clone of Fashion Website Anthropologie.com. This peoject was done my myself in a span of 4 days',
     stack: ['React', 'Localstorage', 'Reqres'],
     sourceCode: 'https://github.com/rahul2437/pricey-match-7148',
-    livePreview: 'https://pricey-match-7148.netlify.app/'
+    livePreview: 'https://pricey-match-7148.netlify.app/',
+    image: anthropologie
   },
   {
     name: 'Indiatoday.in',
     description: 'This Project is a clone of India Today new website, Done with a group of five, Where I was the project lead and we successfully built the application in 5 days.',
     stack: ['HTML', 'CSS', 'Javascript', 'LocalStorage'],
     sourceCode: 'https://github.com/rahul2437/reflective-observation-2981',
-    livePreview: 'https://reflective-observation-2981.netlify.app/'
+    livePreview: 'https://reflective-observation-2981.netlify.app/',
+    image: indiatoday
   },
   {
     name: 'Bluefly.com',

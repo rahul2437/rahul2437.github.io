@@ -6,6 +6,8 @@ import CloseIcon from "@mui/icons-material/Close";
 import { ThemeContext } from "../../context/theme";
 import { about, projects, skills, contact } from "../../portfolio";
 import "./Navbar.css";
+// import { google } from "googleapis";
+// import axios from "axios";
 
 const Navbar = () => {
   const [{ themeName, toggleTheme }] = useContext(ThemeContext);
@@ -60,7 +62,7 @@ const Navbar = () => {
         ) : null}
         {about.resume && (
           <li className="nav__list-item">
-            <a download href="../Access/Rahul-Sheelavantar-Resume.pdf">
+            <a download href="Rahul-Sheelavantar-Resume.pdf">
               <span type="button" className="link link--nav">
                 download resume
               </span>
