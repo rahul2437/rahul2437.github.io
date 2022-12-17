@@ -26,7 +26,7 @@ const projects = [
     name: 'Kayak.com',
     description:
       `Clone of the famous website Kayak. At Kayak user can find and book cheap airline tickets, hotel rooms, holidays and car hire for Indian travellers with KAYAK.co.in
-      Me (Kanav), Rahul, and Abhinav created this clone of kayak.co.in, a travel agency website.`,
+      Me (Rahul), Kanav, and Abhinav created this clone of kayak.co.in, a travel agency website.`,
     stack: ['localstorage', 'HTML', 'CSS', 'JavaScript', 'Express', 'MongoDB'],
     sourceCode: 'https://github.com/rahul2437/Kayaak-Clone',
     livePreview: 'https://kayak-clone.netlify.app/',
