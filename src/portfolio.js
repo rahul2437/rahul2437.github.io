@@ -54,6 +54,13 @@ const projects = [
     stack: ['HTML', 'CSS', 'Javascript', 'LocalStorage'],
     sourceCode: 'https://github.com/rahul2437/Bluefly-Clone',
   },
+  {
+    name: 'Lyst.com',
+    description: 'Designed the clone with all features within the stipulated time. Used and applied react redux javascript styled-components reactjs redux-thunk axios netlify react-redux chakra-ui as well as material-ui and Animation skills to create and test the clone. Worked with a 2-member research team for accomplishing the same.',
+    stack: ['React', 'Redux', 'Javascript', 'Styled Components', 'React JS', 'MUI', 'Thunk', 'Axios', 'Netlify', 'React-Reduc', 'ChakraUi'],
+    sourceCode: 'https://github.com/erpushpendrasingh/seemly-porter-7181',
+    livePreview: 'https://639f75b32b35ad474ee47fcb--seemly-porter-7181.netlify.app/'
+  },
   // {
   //   name: '',
   //   description: '',
