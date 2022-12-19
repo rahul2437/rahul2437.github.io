@@ -2,6 +2,7 @@ import aboutpic from "./components/Access/mePhoto.jpg"
 import kayak from "./components/Access/Kayak.png"
 import indiatoday from "./components/Access/Indiatoday.png"
 import anthropologie from "./components/Access/Anthropologie.png"
+import lyst from "./components/Access/lyst.jpeg"
 
 const header = {
   homepage: 'http://rahul2437.github.io',
@@ -59,7 +60,8 @@ const projects = [
     description: 'Designed the clone with all features within the stipulated time. Used and applied react redux javascript styled-components reactjs redux-thunk axios netlify react-redux chakra-ui as well as material-ui and Animation skills to create and test the clone. Worked with a 2-member research team for accomplishing the same.',
     stack: ['React', 'Redux', 'Javascript', 'Styled Components', 'React JS', 'MUI', 'Thunk', 'Axios', 'Netlify', 'React-Reduc', 'ChakraUi'],
     sourceCode: 'https://github.com/erpushpendrasingh/seemly-porter-7181',
-    livePreview: 'https://639f75b32b35ad474ee47fcb--seemly-porter-7181.netlify.app/'
+    livePreview: 'https://639f75b32b35ad474ee47fcb--seemly-porter-7181.netlify.app/',
+    image: lyst
   },
   // {
   //   name: '',
