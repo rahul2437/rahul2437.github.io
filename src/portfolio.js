@@ -55,7 +55,7 @@ const projects = [
   },
   {
     name: 'Anthropologie.com',
-    description: 'This is a clone of Fashion Website Anthropologie.com. This peoject was done my myself in a span of 4 days',
+    description: 'This is a clone of Fashion Website Anthropologie.com. This project was done my myself in a span of 4 days',
     stack: ['React', 'Localstorage', 'Reqres'],
     sourceCode: 'https://github.com/rahul2437/pricey-match-7148',
     livePreview: 'https://pricey-match-7148.netlify.app/',
