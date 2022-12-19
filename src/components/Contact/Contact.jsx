@@ -25,6 +25,7 @@ const Contact = () => {
               >
                 <Button variant="outlined">
                   <GitHubIcon />
+                  &nbsp; GITHUB
                 </Button>
               </a>
             )}
@@ -37,6 +38,7 @@ const Contact = () => {
               >
                 <Button variant="outlined">
                   <LinkedInIcon />
+                  &nbsp; LinkedIn
                 </Button>
               </a>
             )}
@@ -44,9 +46,7 @@ const Contact = () => {
         )}
       </div>
       <a href={`mailto:${contact.email}`}>
-        <span type="button" className="btn btn--outline">
-          Email me
-        </span>
+        <Button variant="outlined">Email me</Button>
       </a>
     </section>
   );

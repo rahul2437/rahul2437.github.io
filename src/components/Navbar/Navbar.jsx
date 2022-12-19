@@ -12,7 +12,7 @@ import "./Navbar.css";
 const Navbar = () => {
   const [{ themeName, toggleTheme }] = useContext(ThemeContext);
   const [showNavList, setShowNavList] = useState(false);
-
+  const { resume } = about;
   const toggleNavList = () => setShowNavList(!showNavList);
 
   return (
@@ -67,9 +67,9 @@ const Navbar = () => {
         ) : null}
         {about.resume && (
           <li className="nav__list-item">
-            <a target={"_blank"} href="Rahul-Sheelavantar-Resume.pdf">
+            <a target={"_blank"} href={resume} rel={"noreferrer"}>
               <span type="button" className="link link--nav">
-                download resume
+                resume
               </span>
             </a>
           </li>
