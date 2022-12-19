@@ -67,7 +67,7 @@ const Navbar = () => {
         ) : null}
         {about.resume && (
           <li className="nav__list-item">
-            <a download href="Rahul-Sheelavantar-Resume.pdf">
+            <a target={"_blank"} href="Rahul-Sheelavantar-Resume.pdf">
               <span type="button" className="link link--nav">
                 download resume
               </span>
