@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.81ee11f6.css",
-    "main.js": "/static/js/main.899d8f68.js",
+    "main.css": "/static/css/main.b9cfa2cb.css",
+    "main.js": "/static/js/main.8e65a9d9.js",
     "static/media/Anthropologie.png": "/static/media/Anthropologie.49a58d0bfb2c2bd84db4.png",
     "static/media/Indiatoday.png": "/static/media/Indiatoday.63ff879322d07aa5a633.png",
     "static/media/Kayak.png": "/static/media/Kayak.116472753442cb2cd029.png",
     "static/media/lyst.jpeg": "/static/media/lyst.5a488cd575cfc2732dd3.jpeg",
     "static/media/mePhoto.jpg": "/static/media/mePhoto.7642944ab1a570723fe0.jpg",
     "index.html": "/index.html",
-    "main.81ee11f6.css.map": "/static/css/main.81ee11f6.css.map",
-    "main.899d8f68.js.map": "/static/js/main.899d8f68.js.map"
+    "main.b9cfa2cb.css.map": "/static/css/main.b9cfa2cb.css.map",
+    "main.8e65a9d9.js.map": "/static/js/main.8e65a9d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.81ee11f6.css",
-    "static/js/main.899d8f68.js"
+    "static/css/main.b9cfa2cb.css",
+    "static/js/main.8e65a9d9.js"
   ]
 }
