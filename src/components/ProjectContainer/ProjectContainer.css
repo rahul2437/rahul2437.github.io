@@ -4,6 +4,7 @@
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+  scroll-margin: 8em;
 }
 
 .project:hover {

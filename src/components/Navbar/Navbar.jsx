@@ -23,6 +23,11 @@ const Navbar = () => {
       >
         <li className="nav__list-item">
           <a href="#about" onClick={toggleNavList} className="link link--nav">
+            home
+          </a>
+        </li>
+        <li className="nav__list-item">
+          <a href="#about" onClick={toggleNavList} className="link link--nav">
             about me
           </a>
         </li>

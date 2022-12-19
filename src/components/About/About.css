@@ -1,6 +1,7 @@
 .about {
   flex-direction: column;
   margin-top: 3em;
+  scroll-margin: 8em;
 }
 
 .about__name {

@@ -17,13 +17,15 @@ function App() {
   return (
     <div id='top' className={`${themeName} app`}>
       <Header />
-      <About />
-      <Skills />
-      <Github />
-      <Projects />
-      <Contact />
-      <ScrollToTop />
-      <Footer />
+      <main className='main'>
+        <About />
+        <Skills />
+        <Github />
+        <Projects />
+        <Contact />
+        <ScrollToTop />
+        <Footer />
+      </main>
     </div>
   );
 }
