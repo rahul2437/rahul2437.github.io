@@ -6,9 +6,6 @@ import { useContext, useState } from "react";
 import { ThemeContext } from "../../context/theme";
 import { about, contact, projects, skills } from "../../portfolio";
 import "./Navbar.css";
-// import { google } from "googleapis";
-// import axios from "axios";
-
 const Navbar = () => {
   const [{ themeName, toggleTheme }] = useContext(ThemeContext);
   const [showNavList, setShowNavList] = useState(false);
@@ -42,12 +39,12 @@ const Navbar = () => {
       >
         <li className="nav__list-item">
           <a href="#about" onClick={toggleNavList} className="link link--nav">
-            home
+            Home
           </a>
         </li>
         <li className="nav__list-item">
           <a href="#about" onClick={toggleNavList} className="link link--nav">
-            about me
+            About me
           </a>
         </li>
         {skills.length ? (
@@ -86,12 +83,6 @@ const Navbar = () => {
         ) : null}
         {about.resume && (
           <li className="nav__list-item">
-            {/* <a
-              download={"Rahul-Sheelavantar-Resume.pdf"}
-              target={"_blank"}
-              href={resume}
-              rel={"noreferrer"}
-            > */}
             <span
               onClick={() =>
                 downloadFile("Rahul-Sheelavantar-Resume.pdf", resume)
@@ -99,9 +90,8 @@ const Navbar = () => {
               type="button"
               className="link link--nav"
             >
-              resume
+              Resume
             </span>
-            {/* </a> */}
           </li>
         )}
       </ul>

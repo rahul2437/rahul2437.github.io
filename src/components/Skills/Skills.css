@@ -11,14 +11,12 @@
   justify-content: center;
 }
 
-.skills__list-item {
+.skills__list-item > div {
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  align-items: center;
+  /* align-items: center; */
 }
-/* .skills__list-item > h1 {
-} */
 
 .skill__image {
   /* width: 100px; */
