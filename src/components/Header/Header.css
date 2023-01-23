@@ -4,13 +4,8 @@
   z-index: 2;
   height: 6em;
   max-width: 1100px;
-  width: 95%;
+  width: 100%;
+  padding: 0 1em;
   margin: 0 auto;
   justify-content: space-between;
-}
-
-@media (max-width: 600px) {
-  .header {
-    height: 6em;
-  }
 }

@@ -2,14 +2,34 @@
   scroll-margin: 8em;
 }
 .skills__list {
-  max-width: 450px;
+  max-width: 850px;
   width: 95%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  gap: 1em;
   justify-content: center;
 }
 
 .skills__list-item {
-  margin: 0.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  align-items: center;
+}
+/* .skills__list-item > h1 {
+} */
+
+.skill__image {
+  /* width: 100px; */
+  height: 50px;
+  object-fit: fill;
+}
+@media (max-width: 600px) {
+  .skills__list-item {
+    width: 80px;
+  }
+  .skills__list-item h4 {
+    font-size: 0.8em;
+  }
 }

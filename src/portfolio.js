@@ -105,21 +105,59 @@ const projects = [
 ];
 
 const skills = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "Express",
-  "MongoDB",
-  "React",
-  "Redux",
-  "Firebase",
-  "Material UI",
-  "Git",
-  "MERN",
-  "Java 8",
-  "Heroku",
-  "Netlify",
+  {
+    name: "HTML",
+    imageUrl: "https://www.svgrepo.com/show/353884/html-5.svg",
+  },
+  {
+    name: "CSS",
+    imageUrl: "https://www.svgrepo.com/show/452185/css-3.svg",
+  },
+  {
+    name: "JavaScript",
+    imageUrl: "https://www.svgrepo.com/show/373705/js-official.svg",
+  },
+  {
+    name: "TypeScript",
+    imageUrl: "https://www.svgrepo.com/show/443502/brand-typescript.svg",
+  },
+  {
+    name: "MongoDB",
+    imageUrl: "https://www.svgrepo.com/show/331488/mongodb.svg",
+  },
+  {
+    name: "Express",
+    imageUrl: "https://www.svgrepo.com/show/330398/express.svg",
+  },
+  {
+    name: "React",
+    imageUrl: "https://www.svgrepo.com/show/452092/react.svg",
+  },
+  { name: "Redux", imageUrl: "https://www.svgrepo.com/show/452093/redux.svg" },
+  {
+    name: "Node Js",
+    imageUrl: "https://www.svgrepo.com/show/354119/nodejs-icon.svg",
+  },
+  {
+    name: "Firebase",
+    imageUrl: "https://www.svgrepo.com/show/373595/firebase.svg",
+  },
+  {
+    name: "Git",
+    imageUrl: "https://www.svgrepo.com/show/452210/git.svg",
+  },
+  {
+    name: "Java 8",
+    imageUrl: "https://www.svgrepo.com/show/452234/java.svg",
+  },
+  {
+    name: "Vercel",
+    imageUrl: "https://www.svgrepo.com/show/327408/logo-vercel.svg",
+  },
+  {
+    name: "Netlify",
+    imageUrl: "https://www.svgrepo.com/show/376339/netlify.svg",
+  },
 ];
 
 const contact = {

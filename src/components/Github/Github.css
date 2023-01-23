@@ -5,3 +5,19 @@
   gap: 1rem;
   scroll-margin: 8em;
 }
+
+.github > div {
+  display: flex;
+  gap: 1rem;
+}
+@media (max-width: 900px) {
+  .github > div > img {
+    width: 15em;
+  }
+}
+@media (max-width: 600px) {
+  .github > div {
+    flex-direction: column;
+    gap: 0;
+  }
+}

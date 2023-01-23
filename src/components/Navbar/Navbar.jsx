@@ -1,10 +1,10 @@
-import { useContext, useState } from "react";
 import Brightness2Icon from "@mui/icons-material/Brightness2";
-import WbSunnyIcon from "@mui/icons-material/WbSunny";
-import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
+import MenuIcon from "@mui/icons-material/Menu";
+import WbSunnyIcon from "@mui/icons-material/WbSunny";
+import { useContext, useState } from "react";
 import { ThemeContext } from "../../context/theme";
-import { about, projects, skills, contact } from "../../portfolio";
+import { about, contact, projects, skills } from "../../portfolio";
 import "./Navbar.css";
 // import { google } from "googleapis";
 // import axios from "axios";
@@ -14,6 +14,25 @@ const Navbar = () => {
   const [showNavList, setShowNavList] = useState(false);
   const { resume } = about;
   const toggleNavList = () => setShowNavList(!showNavList);
+
+  const downloadFile = async (fileUrl, redirectUrl) => {
+    try {
+      // Initiate the download
+      const response = await fetch(fileUrl);
+      const blob = await response.blob();
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = "Rahul-Sheelavantar-Resume.pdf";
+      link.style.display = "none";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      // Open the new URL in a new tab
+      window.open(redirectUrl, "_blank");
+    } catch (error) {
+      console.error(error);
+    }
+  };
 
   return (
     <nav className="center nav">
@@ -67,11 +86,22 @@ const Navbar = () => {
         ) : null}
         {about.resume && (
           <li className="nav__list-item">
-            <a target={"_blank"} href={resume} rel={"noreferrer"}>
-              <span type="button" className="link link--nav">
-                resume
-              </span>
-            </a>
+            {/* <a
+              download={"Rahul-Sheelavantar-Resume.pdf"}
+              target={"_blank"}
+              href={resume}
+              rel={"noreferrer"}
+            > */}
+            <span
+              onClick={() =>
+                downloadFile("Rahul-Sheelavantar-Resume.pdf", resume)
+              }
+              type="button"
+              className="link link--nav"
+            >
+              resume
+            </span>
+            {/* </a> */}
           </li>
         )}
       </ul>
