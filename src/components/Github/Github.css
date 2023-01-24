@@ -16,6 +16,9 @@
   }
 }
 @media (max-width: 600px) {
+  .github > div > img {
+    width: 80vw;
+  }
   .github > div {
     flex-direction: column;
     gap: 0;

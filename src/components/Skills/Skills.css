@@ -2,8 +2,8 @@
   scroll-margin: 8em;
 }
 .skills__list {
-  max-width: 850px;
-  width: 95%;
+  max-width: 1000px;
+  /* width: 98%; */
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -15,7 +15,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  /* align-items: center; */
+  align-items: center;
 }
 
 .skill__image {
@@ -28,6 +28,6 @@
     width: 80px;
   }
   .skills__list-item h4 {
-    font-size: 0.8em;
+    font-size: 0.6em;
   }
 }
