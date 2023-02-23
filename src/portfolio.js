@@ -3,7 +3,7 @@ import blueFly from "./components/Access/blueFly.png";
 import indiatoday from "./components/Access/Indiatoday.png";
 import kayak from "./components/Access/Kayak.png";
 import lyst from "./components/Access/lyst.jpeg";
-import aboutpic from "./components/Access/mePhoto.jpg";
+import aboutpic from "./components/Access/small.png";
 
 const header = {
   homepage: "http://rahul2437.github.io",
@@ -63,9 +63,8 @@ const projects = [
       "React-Reduc",
       "ChakraUi",
     ],
-    sourceCode: "https://github.com/erpushpendrasingh/seemly-porter-7181",
-    livePreview:
-      "https://639f75b32b35ad474ee47fcb--seemly-porter-7181.netlify.app/",
+    sourceCode: "https://github.com/rahul2437/Lyst.com",
+    livePreview: "https://seemly-porter-7181.netlify.app/",
     image: lyst,
   },
   {
@@ -82,7 +81,7 @@ const projects = [
     description:
       "This Project is a clone of India Today new website, Done with a group of five, Where I was the project lead and we successfully built the application in 5 days.",
     stack: ["HTML", "CSS", "Javascript", "LocalStorage"],
-    sourceCode: "https://github.com/rahul2437/reflective-observation-2981",
+    sourceCode: "https://github.com/rahul2437/India-Today-Clone",
     livePreview: "https://reflective-observation-2981.netlify.app/",
     image: indiatoday,
   },
