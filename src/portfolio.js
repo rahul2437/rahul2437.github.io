@@ -25,18 +25,22 @@ const about = {
 };
 
 const myStory = {
-  description: `I remember the first time I used basic programming in school and wrote simple programs. It was exciting to see your sentences come alive on the website. I then began learning C++ and JAVA. The process of solving problems in C++ and Java ignited a spark in my head and made me contemplate it as a career. My curiosity grew and I wanted to know how software and applications worked. And so I decided to pursue B.Tech. Unfortunately, I could not get into Computer Science and ended up joining Mechanical Engineering.
-  After my graduation, while working in the automobile industry I realized I want to get into Information Technology. I then enrolled at Masai School for a course on Full Stack Development and currently aspiring to be a Full Stack Web Developer.
-
-  I am a quick learner and have good problem-solving skills. I am also interested in Design Thinking. I am adept in Java, HTML, CSS, Javascript, C++, ReactJS, MongoDB, NodeJS, REST APIs, and Git/Github.
-
-  Apart from web development, I am interested in traveling, driving, sketching, and Formula 1.
-
-  You can check out my work here https://github.com/rahul2437/
-  You may reach out to me at rahulsheelavantar@gmail.com`,
+  description: `I am a certified software engineer with expertise in C#, .NET, React, TypeScript, eCharts, data visualization, ETL tools, and DevOps. My journey into programming began with learning basic programming in school, which sparked my interest in software development. Despite initially pursuing a degree in Mechanical Engineering, my passion for IT led me to enroll in a Full Stack Development course at Masai School.
+  Currently, I am working as a Full Stack Web Developer at Noesys Software, where I am building FuseData, a data automation and data engineering product. I have strong problem-solving skills and a keen interest in Design Thinking. My technical proficiency includes ReactJS, .NET, Java, CSS, JavaScript, C++, MongoDB, NodeJS, REST APIs, and Git/Github.
+  Apart from web development, I enjoy traveling, driving, sketching, and following Formula 1.
+  You can check out my work on GitHub at https://github.com/rahul2437/. Feel free to reach out to me at rahulsheelavantar@gmail.com. For more information, visit my website at https://www.rahulsheelavantar.in.`,
 };
 
 const projects = [
+  {
+    name: "FuseData",
+    description:
+      "FuseData is a Data automation and Data engineering tool, It has integrations with Salesforce, Braintree, GraphQl, Dynamics365, OData",
+    stack: ["React", "Typescript", ".Net 8", "gRPC", "SQLite"],
+    sourceCode: "",
+    livePreview: "https://fusedata.cloud/",
+    image: "https://fusedata.cloud/assets/custom/FuseData.gif",
+  },
   {
     name: "Kayak.com",
     description: `Clone of the famous website Kayak. At Kayak user can find and book cheap airline tickets, hotel rooms, holidays and car hire for Indian travellers with KAYAK.co.in
@@ -77,30 +81,12 @@ const projects = [
     image: anthropologie,
   },
   {
-    name: "Indiatoday.in",
-    description:
-      "This Project is a clone of India Today new website, Done with a group of five, Where I was the project lead and we successfully built the application in 5 days.",
-    stack: ["HTML", "CSS", "Javascript", "LocalStorage"],
-    sourceCode: "https://github.com/rahul2437/India-Today-Clone",
-    livePreview: "https://reflective-observation-2981.netlify.app/",
-    image: indiatoday,
+    name: "",
+    description: "",
+    stack: [],
+    sourceCode: "",
+    livePreview: "",
   },
-  {
-    name: "Bluefly.com",
-    description:
-      "This is one of the first project where I was leading the team of 6, This is a clone of E-commerce website built in 5 days",
-    stack: ["HTML", "CSS", "Javascript", "LocalStorage"],
-    sourceCode: "https://github.com/rahul2437/Bluefly-Clone",
-    livePreview: "https://bluefly-clone-pied.vercel.app/source/index.html",
-    image: blueFly,
-  },
-  // {
-  //   name: '',
-  //   description: '',
-  //   stack: [],
-  //   sourceCode: '',
-  //   livePreview: ''
-  // },
 ];
 
 const skills = [
@@ -163,4 +149,4 @@ const contact = {
   email: "rahulsheelavantar@gmail.com",
 };
 
-export { header, about, projects, skills, contact };
+export { header, about, projects, skills, contact, myStory };

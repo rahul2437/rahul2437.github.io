@@ -5,7 +5,7 @@ import "./Contact.css";
 import { Button } from "@mui/material";
 
 const Contact = () => {
-  const { photo, name, role, description, resume, social } = about;
+  const { social } = about;
 
   if (!contact.email) return null;
 
