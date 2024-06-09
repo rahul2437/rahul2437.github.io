@@ -77,13 +77,13 @@ const projects = [
     livePreview: "https://pricey-match-7148.netlify.app/",
     image: anthropologie,
   },
-  {
-    name: "",
-    description: "",
-    stack: [],
-    sourceCode: "",
-    livePreview: "",
-  },
+  // {
+  //   name: "",
+  //   description: "",
+  //   stack: [],
+  //   sourceCode: "",
+  //   livePreview: "",
+  // },
 ];
 
 const skills = [
