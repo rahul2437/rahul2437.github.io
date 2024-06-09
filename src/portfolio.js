@@ -1,6 +1,4 @@
 import anthropologie from "./components/Access/Anthropologie.png";
-import blueFly from "./components/Access/blueFly.png";
-import indiatoday from "./components/Access/Indiatoday.png";
 import kayak from "./components/Access/Kayak.png";
 import lyst from "./components/Access/lyst.jpeg";
 import aboutpic from "./components/Access/small.png";
@@ -9,7 +7,6 @@ const header = {
   homepage: "http://rahul2437.github.io",
   title: "Rahul.",
 };
-
 const about = {
   photo: aboutpic,
   name: "RAHUL SHEELAVANTAR",
