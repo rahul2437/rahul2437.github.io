@@ -7,7 +7,7 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Contact from "./components/Contact/Contact";
 import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
-import Github from "./components/Github/Github";
+// import Github from "./components/Github/Github";
 import "./App.css";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
       <main className="main">
         <About />
         <Skills />
-        <Github />
+        {/* <Github /> */}
         <Projects />
         <Contact />
         <ScrollToTop />

@@ -49,7 +49,7 @@ const projects = [
     stack: ["React", "TypeScript", ".NET", "gRPC", "ETL", "Docker"],
     sourceCode: "Private",
     livePreview: "https://help.infoveave.com/",
-    image: "https://help.infoveave.com/assets/images/infoveave-logo.png",
+    image: "https://help.infoveave.com/_astro/infoveave_lightbg.D2mjkwuM.svg",
   },
 ];
 
@@ -57,29 +57,12 @@ const skills = [
   { name: ".NET", imageUrl: "https://www.svgrepo.com/show/376369/dotnet.svg" },
   { name: "gRPC", imageUrl: "https://www.svgrepo.com/show/375531/api.svg" },
   {
-    name: "SQLite",
-    imageUrl: "https://www.svgrepo.com/show/331494/sqlite.svg",
+    name: "AWS",
+    imageUrl: "https://www.svgrepo.com/show/448266/aws.svg",
   },
-  { name: "ETL", imageUrl: "https://www.svgrepo.com/show/374697/data.svg" },
   {
     name: "Docker",
-    imageUrl: "https://www.svgrepo.com/show/303146/docker.svg",
-  },
-  {
-    name: "Kubernetes",
-    imageUrl: "https://www.svgrepo.com/show/353945/kubernetes.svg",
-  },
-  {
-    name: "eCharts",
-    imageUrl: "https://www.svgrepo.com/show/354133/chart.svg",
-  },
-  {
-    name: "DevOps",
-    imageUrl: "https://www.svgrepo.com/show/354019/devops.svg",
-  },
-  {
-    name: "PostgreSQL",
-    imageUrl: "https://www.svgrepo.com/show/452225/postgresql.svg",
+    imageUrl: "https://www.svgrepo.com/show/452192/docker.svg",
   },
   {
     name: "JavaScript",
