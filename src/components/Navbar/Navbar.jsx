@@ -9,27 +9,7 @@ import "./Navbar.css";
 const Navbar = () => {
   const [{ themeName, toggleTheme }] = useContext(ThemeContext);
   const [showNavList, setShowNavList] = useState(false);
-  const { resume } = about;
   const toggleNavList = () => setShowNavList(!showNavList);
-
-  const downloadFile = async (fileUrl, redirectUrl) => {
-    try {
-      // Initiate the download
-      const response = await fetch(fileUrl);
-      const blob = await response.blob();
-      const link = document.createElement("a");
-      link.href = URL.createObjectURL(blob);
-      link.download = "Rahul-Sheelavantar-Resume.pdf";
-      link.style.display = "none";
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-      // Open the new URL in a new tab
-      window.open(redirectUrl, "_blank");
-    } catch (error) {
-      console.error(error);
-    }
-  };
 
   return (
     <nav className="center nav">
@@ -83,15 +63,16 @@ const Navbar = () => {
         ) : null}
         {about.resume && (
           <li className="nav__list-item">
-            <span
-              onClick={() =>
-                downloadFile("Rahul-Sheelavantar-Resume.pdf", resume)
-              }
-              type="button"
+            <a
+              href="/Rahul-Sheelavantar-Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download
               className="link link--nav"
+              onClick={toggleNavList}
             >
               Resume
-            </span>
+            </a>
           </li>
         )}
       </ul>

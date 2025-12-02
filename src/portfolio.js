@@ -1,20 +1,17 @@
-import anthropologie from "./components/Access/Anthropologie.png";
-import kayak from "./components/Access/Kayak.png";
-import lyst from "./components/Access/lyst.jpeg";
 import aboutpic from "./components/Access/small.png";
 
 const header = {
-  homepage: "http://rahul2437.github.io",
+  homepage: "https://rahul2437.github.io",
   title: "Rahul.",
 };
 const about = {
   photo: aboutpic,
   name: "RAHUL SHEELAVANTAR",
-  role: "Full stack developer",
+  role: "Software Engineer",
   description:
-    "A Fullstack Web Developer, who builds Web Applications that leads to the success of the overall product.",
+    "I’m a Software Engineer passionate about designing and building scalable web and data-automation platforms that turn raw data into actionable insights. I excel at both frontend (React + TypeScript) and backend (.NET 8, gRPC/REST) — and thrive on building robust end-to-end systems encompassing data ingestion, transformation, workflow orchestration, and delivery. Whether it's architecting complex ETL pipelines, integrating data connectors, implementing data lineage tracking, or building UI for orchestration and visualization — I love the challenge of bridging engineering and data for real impact.",
   resume:
-    "https://drive.google.com/file/d/1fNmGh0b2FvFJcYKThS8__xF_r-DkJ8gO/view?usp=share_link",
+    "https://drive.google.com/file/d/1dGxK7oAk_VNm5vAVLUMpZQZgqWcwl8kW/view?usp=sharing",
   social: {
     linkedin: "https://www.linkedin.com/in/rahulsheelavantar/",
     github: "https://github.com/rahul2437",
@@ -22,78 +19,67 @@ const about = {
 };
 
 const myStory = {
-  description: `I am a certified software engineer with expertise in C#, .NET, React, TypeScript, eCharts, data visualization, ETL tools, and DevOps. My journey into programming began with learning basic programming in school, which sparked my interest in software development. Despite initially pursuing a degree in Mechanical Engineering, my passion for IT led me to enroll in a Full Stack Development course at Masai School.
-  Currently, I am working as a Full Stack Web Developer at Noesys Software, where I am building FuseData, a data automation and data engineering product. I have strong problem-solving skills and a keen interest in Design Thinking. My technical proficiency includes ReactJS, .NET, Java, CSS, JavaScript, C++, MongoDB, NodeJS, REST APIs, and Git/Github.
-  Apart from web development, I enjoy traveling, driving, sketching, and following Formula 1.
-  You can check out my work on GitHub at https://github.com/rahul2437/. Feel free to reach out to me at rahulsheelavantar@gmail.com. For more information, visit my website at https://www.rahulsheelavantar.in.`,
+  description: `Certified software engineer specializing in Full Stack development with strong experience in C#, .NET, React and TypeScript. Currently building FuseData — a data automation and engineering platform — at Noesys Software. Skilled in designing ETL pipelines, integrations (Salesforce, Braintree, Dynamics, GraphQL, OData), data transformation and visualization, and delivering production-grade APIs and UIs. Comfortable across the stack: backend services (.NET, gRPC), frontend (React + TypeScript), lightweight storage (SQLite) and CI/CD/DevOps practices. Open to collaborating on data-driven web products and scalable integrations.`,
 };
 
 const projects = [
   {
     name: "FuseData",
     description:
-      "FuseData is a Data automation and Data engineering tool, It has integrations with Salesforce, Braintree, GraphQl, Dynamics365, OData",
-    stack: ["React", "Typescript", ".Net 8", "gRPC", "SQLite"],
-    sourceCode: "",
-    livePreview: "https://fusedata.cloud/",
+      "FuseData is a data automation and data engineering platform I help build at Noesys Software, designed for orchestrating complex end-to-end data workflows. My work spans the full lifecycle of data movement and transformation — from building high-performance source connectors (Salesforce, Braintree, Dynamics, GraphQL, OData) to implementing incremental ingestion, schema-aware extraction, and resilient retry patterns for reliable data acquisition. I contributed to designing a flexible transformation engine supporting mapping rules, schema normalization, JSON flattening, deduplication, and validation logic. To improve pipeline performance, I integrated DuckDB + Apache Arrow for fast in-memory columnar processing, enabling efficient batch/micro-batch transformations and downstream ML/analytics workflows. I also worked on workflow design, scheduling, and monitoring (similar to Infoveave’s automation model), implementing execution metadata, error routing, and full data lineage tracking. The platform is backed by a .NET 8 core exposing gRPC/REST APIs, with a React + TypeScript frontend for workflow orchestration and visualization, and SQLite for transient state management. I strengthened production readiness with structured logging, metrics, retry semantics, CI/CD pipelines, and connector-level safeguards, ensuring scalable, reliable, and observable automation pipelines.",
+    stack: [
+      "React",
+      "TypeScript",
+      ".NET 8",
+      "gRPC",
+      "SQLite",
+      "DuckDB",
+      "Apache Arrow",
+      "ETL",
+      "ML Pipelines",
+    ],
+    sourceCode: "Private",
+    livePreview: "https://help.infoveave.com/automation-v8/workflows",
     image: "https://fusedata.cloud/assets/custom/FuseData.gif",
   },
   {
-    name: "Kayak.com",
-    description: `Clone of the famous website Kayak. At Kayak user can find and book cheap airline tickets, hotel rooms, holidays and car hire for Indian travellers with KAYAK.co.in
-      Me (Rahul), Kanav, and Abhinav created this clone of kayak.co.in, a travel agency website.`,
-    stack: ["localstorage", "HTML", "CSS", "JavaScript", "Express", "MongoDB"],
-    sourceCode: "https://github.com/rahul2437/Kayaak-Clone",
-    livePreview: "https://kayaak-clone.vercel.app/",
-    image: kayak,
-  },
-  {
-    name: "Lyst.com",
+    name: "Infoveave",
     description:
-      "Designed the clone with all features within the stipulated time. Used and applied react redux javascript styled-components reactjs redux-thunk axios netlify react-redux chakra-ui as well as material-ui and Animation skills to create and test the clone. Worked with a 3-member research team for accomplishing the same.",
-    stack: [
-      "React",
-      "Redux",
-      "Javascript",
-      "Styled Components",
-      "React JS",
-      "MUI",
-      "Thunk",
-      "Axios",
-      "Netlify",
-      "React-Reduc",
-      "ChakraUi",
-    ],
-    sourceCode: "https://github.com/rahul2437/Lyst.com",
-    livePreview: "https://seemly-porter-7181.netlify.app/",
-    image: lyst,
+      "Infoveave is an enterprise-grade business intelligence and data automation platform that unifies analytics, automation, and governance into a single ecosystem. It integrates six core modules — Insights, Analysis, Automation, Data Apps, Data Quality, and Data Governance — to help organizations transform raw data into actionable, operational intelligence. I worked on enhancing end-to-end capabilities across these modules, including building interactive dashboards, advanced analysis workflows, and rule-driven automation pipelines powered by gRPC/.NET microservices. Infoveave enables users to connect to diverse data sources, model and transform datasets at scale, schedule and orchestrate workflows, build no-code data applications, validate and cleanse data, and enforce governance standards. The platform combines a modern React + TypeScript frontend with a scalable .NET backend and containerized deployments via Docker, delivering a robust, user-friendly experience for enterprise analytics and automation.",
+    stack: ["React", "TypeScript", ".NET", "gRPC", "ETL", "Docker"],
+    sourceCode: "Private",
+    livePreview: "https://help.infoveave.com/",
+    image: "https://help.infoveave.com/assets/images/infoveave-logo.png",
   },
-  {
-    name: "Anthropologie.com",
-    description:
-      "This is a clone of Fashion Website Anthropologie.com. This project was done my myself in a span of 4 days",
-    stack: ["React", "Localstorage", "Reqres"],
-    sourceCode: "https://github.com/rahul2437/pricey-match-7148",
-    livePreview: "https://pricey-match-7148.netlify.app/",
-    image: anthropologie,
-  },
-  // {
-  //   name: "",
-  //   description: "",
-  //   stack: [],
-  //   sourceCode: "",
-  //   livePreview: "",
-  // },
 ];
 
 const skills = [
+  { name: ".NET", imageUrl: "https://www.svgrepo.com/show/376369/dotnet.svg" },
+  { name: "gRPC", imageUrl: "https://www.svgrepo.com/show/375531/api.svg" },
   {
-    name: "HTML",
-    imageUrl: "https://www.svgrepo.com/show/353884/html-5.svg",
+    name: "SQLite",
+    imageUrl: "https://www.svgrepo.com/show/331494/sqlite.svg",
+  },
+  { name: "ETL", imageUrl: "https://www.svgrepo.com/show/374697/data.svg" },
+  {
+    name: "Docker",
+    imageUrl: "https://www.svgrepo.com/show/303146/docker.svg",
   },
   {
-    name: "CSS",
-    imageUrl: "https://www.svgrepo.com/show/452185/css-3.svg",
+    name: "Kubernetes",
+    imageUrl: "https://www.svgrepo.com/show/353945/kubernetes.svg",
+  },
+  {
+    name: "eCharts",
+    imageUrl: "https://www.svgrepo.com/show/354133/chart.svg",
+  },
+  {
+    name: "DevOps",
+    imageUrl: "https://www.svgrepo.com/show/354019/devops.svg",
+  },
+  {
+    name: "PostgreSQL",
+    imageUrl: "https://www.svgrepo.com/show/452225/postgresql.svg",
   },
   {
     name: "JavaScript",
@@ -115,7 +101,6 @@ const skills = [
     name: "React",
     imageUrl: "https://www.svgrepo.com/show/452092/react.svg",
   },
-  { name: "Redux", imageUrl: "https://www.svgrepo.com/show/452093/redux.svg" },
   {
     name: "Node Js",
     imageUrl: "https://www.svgrepo.com/show/354119/nodejs-icon.svg",
@@ -131,14 +116,6 @@ const skills = [
   {
     name: "Java 8",
     imageUrl: "https://www.svgrepo.com/show/452234/java.svg",
-  },
-  {
-    name: "Vercel",
-    imageUrl: "https://www.svgrepo.com/show/327408/logo-vercel.svg",
-  },
-  {
-    name: "Netlify",
-    imageUrl: "https://www.svgrepo.com/show/376339/netlify.svg",
   },
 ];
 
